@@ -1,0 +1,43 @@
+.toComeIn {
+    display: flex;
+    position: absolute;
+    top: 5pc;
+    left: 250px;
+    justify-content: center;
+    width: 70%;
+    font-family: Inter;
+    background: #fff;
+}
+.toComeIn-tme {
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.toComeIn-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+}
+.toComeIn-block h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.tme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 10px;
+}
+.tme-btn img {
+    width: 30px;
+}
