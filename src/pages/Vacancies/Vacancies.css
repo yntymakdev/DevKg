@@ -1,0 +1,50 @@
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.add_vacancies {
+  margin: 0 0 0 20px;
+  padding: 10px 25px;
+  border: none;
+  background: #6fcf97;
+  color: #fff;
+  font-size: 14px;
+}
+
+.label {
+  display: block;
+  letter-spacing: 0.03em;
+  color: #a7b0c2;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.information-vacancies {
+  font-size: 20px;
+  background: #f1f4f9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.jobs-item-filed {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  background: linear-gradient(
+    147.89deg,
+    rgb(19, 84, 122) -31.07%,
+    rgb(128, 208, 199) 128.49%
+  );
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  margin-top: 3px;
+}
+
+
+
