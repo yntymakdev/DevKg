@@ -1,0 +1,12 @@
+.events__button{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+button{
+    padding: 10px 25px;
+    border: none;
+    background: rgb(64, 224, 163);
+    color: #f7f7f7;
+}
