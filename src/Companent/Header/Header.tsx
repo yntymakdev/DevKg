@@ -37,11 +37,11 @@ function Header() {
                     </div>
 
                     <div className="header__nav">
-                        <Link to="/JobOpenings">Вакансии</Link>
-                        <Link to="/Events">Мероприятия</Link>
-                        <Link to="/Video">Видео</Link>
-                        <Link to="/Organizations">Организации</Link>
-                        <Link to="/Community">Сообщество</Link>
+                        <Link to="/vacancies">Вакансии</Link>
+                        <Link to="/events">Мероприятия</Link>
+                        <Link to="/video">Видео</Link>
+                        <Link to="/organizatios">Организации</Link>
+                        <Link to="/community">Сообщество</Link>
                     </div>
                     <div className="header__menu-and-clicker">
                         <div
@@ -68,25 +68,25 @@ function Header() {
                                     <VscClose />
                                 </Link>
                                 <Link
-                                    to="/JobOpenings"
+                                    to="/vacancies"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Вакансии
                                 </Link>
-                                <Link to="/Events" onClick={toggleBurgerMenu}>
+                                <Link to="/events" onClick={toggleBurgerMenu}>
                                     Мероприятия
                                 </Link>
-                                <Link to="/Video" onClick={toggleBurgerMenu}>
+                                <Link to="/video" onClick={toggleBurgerMenu}>
                                     Видео
                                 </Link>
                                 <Link
-                                    to="/Organizations"
+                                    to="/organizatios"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Организации
                                 </Link>
                                 <Link
-                                    to="/Community"
+                                    to="/community"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Сообщество
