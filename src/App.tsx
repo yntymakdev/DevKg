@@ -7,7 +7,6 @@ import Video from "./pages/Video/Video";
 import Organizations from "./pages/Organizations/Organizations";
 import Community from "./pages/Сommunity/Community";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import AddVacancie from "./pages/AddVacancies/AddVacancie";
 
 const router = createBrowserRouter([
     {
@@ -34,10 +33,7 @@ const router = createBrowserRouter([
         path: "/community",
         element: <Community />,
     },
-    {
-        path: "/addvacancie",
-        element: <AddVacancie />,
-    },
+  
 ]);
 
 function App() {
