@@ -4,7 +4,7 @@
     justify-content: end;
 }
 
-button{
+.events__button button{
     padding: 10px 25px;
     border: none;
     background: rgb(64, 224, 163);
