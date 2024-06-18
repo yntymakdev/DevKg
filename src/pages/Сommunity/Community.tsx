@@ -9,7 +9,7 @@ function Community() {
     <div id="community">
         <div className="container">
             <div className="community">
-            community
+            
             </div>
         </div>
     </div>
