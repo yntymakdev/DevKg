@@ -1,3 +1,4 @@
+import "./adaptive.css"
 import "./battle.css"
 
 function Battle() {
