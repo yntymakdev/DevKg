@@ -133,7 +133,7 @@ function Community() {
                   >
                     <i data-v-a2ede7f6 className="icon icon-devkg">
                     </i>
-                    Devskg
+                    Devskgy
                   </a>
                 </section>
               </section>
