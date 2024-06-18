@@ -1,14 +1,10 @@
 import Footer from "../../Companent/Footer/Footer";
 import Header from "../../Companent/Header/Header";
 import "../Сommunity/Community.css";
-import Footer from "../../Companent/Footer/Footer";
-import Header from "../../Companent/Header/Header";
-import "../Сommunity/Community.css";
 
 function Community() {
   return (
     <>
-      <Header />
       <div id="community">
       <Header />
       <div id="community">
@@ -144,12 +140,8 @@ function Community() {
       </div>
       <Footer />
       </div>
-      <Footer />
     </>
   );
-  );
 }
-
-export default Community;
 
 export default Community;
