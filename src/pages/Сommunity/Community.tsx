@@ -1,9 +1,6 @@
 import Footer from "../../Companent/Footer/Footer";
 import Header from "../../Companent/Header/Header";
 import "../Сommunity/Community.css";
-import Footer from "../../Companent/Footer/Footer";
-import Header from "../../Companent/Header/Header";
-import "../Сommunity/Community.css";
 
 function Community() {
   return (

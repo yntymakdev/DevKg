@@ -69,16 +69,13 @@ function Header() {
                                 </Link>
                                 <Link
                                     to="/vacancies"
-                                    to="/vacancies"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Вакансии
                                 </Link>
-                                <Link to="/events" onClick={toggleBurgerMenu}>
-                                <Link to="/events" onClick={toggleBurgerMenu}>
+                                <Link to="/events" onClick={toggleBurgerMenu} >
                                     Мероприятия
                                 </Link>
-                                <Link to="/video" onClick={toggleBurgerMenu}>
                                 <Link to="/video" onClick={toggleBurgerMenu}>
                                     Видео
                                 </Link>
@@ -89,7 +86,6 @@ function Header() {
                                     Организации
                                 </Link>
                                 <Link
-                                    to="/community"
                                     to="/community"
                                     onClick={toggleBurgerMenu}
                                 >
