@@ -1,10 +1,15 @@
 import Footer from "../../Companent/Footer/Footer";
 import Header from "../../Companent/Header/Header";
 import "../Сommunity/Community.css";
+import Footer from "../../Companent/Footer/Footer";
+import Header from "../../Companent/Header/Header";
+import "../Сommunity/Community.css";
 
 function Community() {
   return (
     <>
+      <Header />
+      <div id="community">
       <Header />
       <div id="community">
         <div className="container">
@@ -19,13 +24,19 @@ function Community() {
                   Перейти
                 </button>
               </div>
+              <aside data-v-a2ede7f6 className="share-box"></aside>
               <section data-v-a2ede7f6 className="block devkg">
                 <section data-v-a2ede7f6 className="block devkg">
                   <h4 data-v-a2ede7f6 className="title">
                     Наши ресурсы в Telegram
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
                     Общий чат
                   </a>
                 </section>
@@ -35,8 +46,13 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     Телеграм чаты
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
                     React KG
                   </a>
                 </section>
@@ -46,8 +62,13 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     Телеграм каналы
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
                     Всё о Python
                   </a>
                 </section>
@@ -57,8 +78,13 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     Веб-сайты
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
                     Lance.kg
                   </a>
                 </section>
@@ -68,9 +94,14 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     Facebook
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
-                  IT-Club Kyrgyzstan
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
+                    IT-Club Kyrgyzstan
                   </a>
                 </section>
               </section>
@@ -79,9 +110,14 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     YouTube
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
-                  DevKG
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
+                    DevKG
                   </a>
                 </section>
               </section>
@@ -90,9 +126,14 @@ function Community() {
                   <h4 data-v-a2ede7f6 className="title">
                     GitHub
                   </h4>
-                  <a data-v-a2ede7f6 href="/" className="item">
-                    <img className="icon icon-devkg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72LJm5Em_1UXq5xStSgkCug4IDZAce62RJw&usqp=CAU" alt="" />
-                    Devskg
+                  <a
+                    data-v-a2ede7f6
+                    href="/"
+                    className="item"
+                  >
+                    <i data-v-a2ede7f6 className="icon icon-devkg">
+                    </i>
+                    Devskgy
                   </a>
                 </section>
               </section>
@@ -102,8 +143,13 @@ function Community() {
         </div>
       </div>
       <Footer />
+      </div>
+      <Footer />
     </>
   );
+  );
 }
+
+export default Community;
 
 export default Community;
