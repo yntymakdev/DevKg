@@ -1,0 +1,80 @@
+.community-main .block[data-v-a2ede7f6] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.community-main .heading[data-v-a2ede7f6] {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 18px;
+    letter-spacing: .03em;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .03em;
+    line-height: 38px;
+    padding: 0 25px;
+    min-width: 145px;
+}
+
+.community-main .block .title[data-v-a2ede7f6] {
+    flex: 1 1 100%;
+    color: #a7b0c2;
+    font-size: 24px;
+    letter-spacing: .03em;
+    font-weight: 700;
+    margin: 35px 0 25px;
+}
+
+.community-main .block .item .icon[data-v-a2ede7f6] {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 0;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-main .block .item[data-v-a2ede7f6] {
+    position: relative;
+    flex: 0 0 270px;
+    margin-right: 13px;
+    height: 55px;
+    font-weight: 700;
+    margin-bottom: 13px;
+    padding-right: 8px;
+    color: #fff;
+    padding-left: 65px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.community-main .block.devkg .item[data-v-a2ede7f6] {
+    background: #0085ff;
+}
+.community-main .block.telegram_chats .item[data-v-a2ede7f6] {
+    background: #2ca5e0;
+}
+.community-main .block.telegram_channels .item[data-v-a2ede7f6] {
+    background: #2ca5e0;
+}
+.community-main .block.websites .item[data-v-a2ede7f6] {
+    background: #6fcf97;
+}
+.community-main .block.facebook .item[data-v-a2ede7f6] {
+    background: #3b5998;
+}
+.community-main .block.youtube .item[data-v-a2ede7f6] {
+    background: red;
+}
+.community-main .block.github .item[data-v-a2ede7f6] {
+    background: #262626;
+}

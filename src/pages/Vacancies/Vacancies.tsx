@@ -12,7 +12,7 @@ function Vacancies() {
           <div className="vacancies">
             <div className="vacancies__content">
               <div className="filter">
-                <Link to={""}>
+                <Link to={"/"}>
                   <button className="add_vacancies">Добавить вакансию</button>
                 </Link>
               </div>
