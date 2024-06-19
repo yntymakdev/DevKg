@@ -3,6 +3,7 @@
     top: 10pc;
     left: 720px;
     justify-content: center;
+    align-items: center;
     width: 35pc;
     height: 30%;
     border-radius: 1px;
@@ -10,10 +11,9 @@
     background: #fff;
     padding: 30px;
     border-radius: 4px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#toComeIn p{
+#toComeIn p {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .toComeIn-block {
     display: flex;
     flex-direction: column;
@@ -61,7 +60,6 @@
     padding: 20px 25px;
     gap: 10px;
 }
-
 .tme-btn img {
     width: 30px;
 }
@@ -71,4 +69,75 @@
 }
 a {
     text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    #toComeIn {
+        top: 8pc;
+        left: 5%;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .tme-btn {
+        height: 40px;
+        padding: 15px 20px;
+    }
+    .tme-btn img {
+        width: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    #toComeIn {
+        top: 6pc;
+        left: 5%;
+        width: 90%;
+        padding: 15px;
+    }
+    #toComeIn p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .toComeIn-block h3 {
+        font-size: 18px;
+    }
+    .toComeIn-block p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .tme-btn {
+        height: 35px;
+        padding: 10px 15px;
+    }
+    .tme-btn img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #toComeIn {
+        top: 4pc;
+        left: 2.5%;
+        width: 95%;
+        padding: 10px;
+    }
+    #toComeIn p {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .toComeIn-block h3 {
+        font-size: 16px;
+    }
+    .toComeIn-block p {
+        font-size: 11px;
+        padding: 0 5px;
+    }
+    .tme-btn {
+        height: 30px;
+        padding: 5px 10px;
+    }
+    .tme-btn img {
+        width: 15px;
+    }
 }
