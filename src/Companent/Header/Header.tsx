@@ -69,7 +69,6 @@ function Header() {
                                 </Link>
                                 <Link
                                     to="/vacancies"
-                                    to="/vacancies"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Вакансии
@@ -78,18 +77,15 @@ function Header() {
                                     Мероприятия
                                 </Link>
                                 <Link to="/video" onClick={toggleBurgerMenu}>
-                                <Link to="/video" onClick={toggleBurgerMenu}>
                                     Видео
                                 </Link>
                                 <Link
-                                    to="/organizations"
                                     to="/organizations"
                                     onClick={toggleBurgerMenu}
                                 >
                                     Организации
                                 </Link>
                                 <Link
-                                    to="/community"
                                     to="/community"
                                     onClick={toggleBurgerMenu}
                                 >
