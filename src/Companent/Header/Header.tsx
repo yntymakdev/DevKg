@@ -40,7 +40,7 @@ function Header() {
                         <Link to="/vacancies">Вакансии</Link>
                         <Link to="/events">Мероприятия</Link>
                         <Link to="/video">Видео</Link>
-                        <Link to="/organizatios">Организации</Link>
+                        <Link to="/organizations">Организации</Link>
                         <Link to="/community">Сообщество</Link>
                     </div>
                     <div className="header__menu-and-clicker">
@@ -73,7 +73,7 @@ function Header() {
                                 >
                                     Вакансии
                                 </Link>
-                                <Link to="/events" onClick={toggleBurgerMenu} >
+                                <Link to="/events" onClick={toggleBurgerMenu}>
                                     Мероприятия
                                 </Link>
                                 <Link to="/video" onClick={toggleBurgerMenu}>
