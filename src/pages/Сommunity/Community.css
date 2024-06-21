@@ -23,7 +23,11 @@ button {
   line-height: 38px;
   padding: 0 25px;
   min-width: 145px;
+  background: #6fcf97;
+  color: #fff;
+  border: none;
 }
+
 
 .community-main .block .title[data-v-a2ede7f6] {
   flex: 1 1 100%;
