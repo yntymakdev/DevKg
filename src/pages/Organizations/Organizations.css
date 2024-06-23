@@ -25,3 +25,10 @@
     justify-content: end;
     gap: 20px;
 }
+@media screen and (max-width:433px){
+    .organizations{
+        flex-wrap: wrap;
+        background:#f1f4f9; 
+        padding: 0px 10px 0px 10px;
+    }
+}
