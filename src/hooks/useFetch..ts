@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
-// const API_URL = 'https://3.34.200.34/jobs';
 
-const useFetch = ({
-    API_URL = "https://3.34.200.34/jobs"
+const useFetch = (
+  {
+    API_URL
+  } = {
+    API_URL: "https://3.34.200.34/jobs"
 }) => {
   const [data, setData] = useState<unknown>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);

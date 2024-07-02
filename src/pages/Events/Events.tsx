@@ -2,11 +2,12 @@ import Footer from "../../Companent/Footer/Footer"
 import Header from "../../Companent/Header/Header"
 import "./Events.css"
 import useFetch from "../../hooks/useFetch."
-import { JobList } from "../../Companent/JobList/jobList"
 
 
 function Events() {
-  const{ data, isLoading } = useFetch({API_URL: "http://3.34.200.34/jobs"})
+  const{ data, isLoading } = useFetch({
+    API_URL: "https://3.34.200.34/events"
+  })
   console.log("data: ", data);
   
   return (
