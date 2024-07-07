@@ -1,49 +1,43 @@
 export const JobList = ({
-    time,
-    advertisementName,
-    organizer,
-    location,
-
+    componyName,
+    companyRole,
+    salary,
+    type
 }: {
-    time: number,
-    advertisementName: string,
-    organizer: string,
-    location: string,
+    componyName: string,
+    companyRole: string,
+    salary: string,
+    type: string
 
 }) => {
     return(
-    <article className="events-item">
-        <a href="dev.kg">
-            <div className="events-date">
-                <span>
-                    <time dateTime="2024-06-10T12:30:00.000z">
-                        {/* 8 инюя 2024 
-                        <span> 13:00</span> */}
-                        {time}
-                    </time>
+        <>
+            <div className="information" data-v-6dc437e8>
+                <div className="jobs-item-field company" data-v-6dc437e8>
+                    <span className="label" data-v-6dc437e8>
+                        Компания
+                    </span>
+                        {componyName}
+                </div>
+            <div className="jobs-item-field position" data-v-6dc437e8>
+                <span className="label" data-v-6dc437e8>
+                      Должность
                 </span>
+                   {companyRole}
             </div>
-            <div className="events-info">
-                <div className="events-title">
-                    {advertisementName}
-                </div>
-
-                <div className="events-mate">
-                    <div className="events-organizer">
-                        <span className="events-label">Организатор</span> <br />
-                        {organizer}
-                    </div>
-
-                    <div className="events-locate">
-                        <span className="events-label">
-                            Локация
+                <div className="jobs-item-field price" data-v-6dc437e8>
+                    <span className="label" data-v-6dc437e8>
+                      Оклад
+                    </span>
+                        {salary}
+              </div>
+                   <div className="jobs-item-field type" data-v-6dc437e8>
+                        <span className="label" data-v-6dc437e8>
+                            Тип
                         </span>
-                        <address>{location}</address>
-                    </div>
-                </div>
-
-            </div>
-        </a>
-    </article>
+                            {type}
+                  </div>
+          </div>      
+        </>      
     )
 }
