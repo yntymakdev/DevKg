@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useFetch = ({
-  url = "http://3.34.200.34/jobs"
+  url = "http://3.38.98.134/jobs"
 }: {
   url: string
 }) => {
