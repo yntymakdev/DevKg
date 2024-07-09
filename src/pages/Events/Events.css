@@ -7,9 +7,11 @@
 
 .events__button button{
     padding: 1px 18px;
+    padding: 1px 18px;
     border: none;
     background: rgb(47, 225, 157);
     color: #f7f7f7;
+    filter: ();
     filter: ();
 }
 
@@ -86,6 +88,12 @@ time{
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 35px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 
@@ -93,7 +101,9 @@ time{
 
     .events-title{
         margin: 250px 0 40px 30px;
+        margin: 250px 0 40px 30px;
         color: #fff;
+        /* font-size: 20px; */
         /* font-size: 20px; */
     }
 }
@@ -101,6 +111,7 @@ time{
 @media (max-width: 660px) {
 
     .events-title{
+        margin: 170px 0 40px 30px;
         margin: 170px 0 40px 30px;
         color: #fff;
         font-size: 27px;
