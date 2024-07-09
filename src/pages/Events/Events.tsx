@@ -1,7 +1,6 @@
 import Footer from "../../Companent/Footer/Footer"
 import Header from "../../Companent/Header/Header"
 import "./Events.css"
-import useFetch from "../../hooks/useFetch."
 import { EventsList } from "../../Companent/EventsList/eventsList"
 import useFetch from "../../hooks/useFetch"
 
@@ -44,7 +43,6 @@ function Events() {
               <button className="btn next">Cледующая страница</button>
             </div>
             </div>
-        </div>    
         <Footer/>
     </>
   )
