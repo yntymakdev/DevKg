@@ -11,10 +11,7 @@
     border: none;
     background: rgb(47, 225, 157);
     color: #f7f7f7;
-    filter: ();
-    filter: ();
 }
-
 .login-prompt {
     display: flex;
     justify-content: center;
@@ -64,6 +61,17 @@
 
 .events-date{
     padding: 20px 30px;
+    
+}
+
+.dev.kg{
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    width: 570px;
+    height: 355px;
+    top: 10px;
+    backdrop-filter: blur(10px);
 }
 
 time{
