@@ -6,7 +6,7 @@ const useFetch = ({
   url: string
 }) => {
 
-  const [data, setData] = useState([]);
+  const [data, setData] = useState <any> ([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const fetchData = async () => {
@@ -14,7 +14,7 @@ const useFetch = ({
     try {
       const response = await fetch(url);
       const data = await response.json();
-      if (data.success){
+      if (data.statusCode = 200){
         setData(data.data)
       }
     }
