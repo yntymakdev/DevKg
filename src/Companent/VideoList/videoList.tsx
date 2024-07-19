@@ -13,8 +13,7 @@ export const VideoList = ({
     <>
       <div className="meetups-page-items">
         <article className="meetups-wrapper item">
-          <a
-            href="/ru/meetups/chatgpt-revolyuciya-ili-moda-kak-neyroseti-mogut-pomoch-v-rabote-kolesa-group-138"
+          <a href="/ru/meetups/chatgpt-revolyuciya-ili-moda-kak-neyroseti-mogut-pomoch-v-rabote-kolesa-group-138"
             className="meetups-item"
           >
             <div className="preview dark image">
