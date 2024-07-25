@@ -7,6 +7,8 @@ import Video from "./pages/Video/Video";
 import Organizations from "./pages/Organizations/Organizations";
 import Community from "./pages/Сommunity/Community";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Login from "./Companent/Login/login";
+import Signup from "./Companent/SignUp/signup";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
     {
         path: "/community",
         element: <Community />,
+    },
+    {
+        path: "/login",
+        element: <Login />,
+    },
+    {
+        path: "/simgup",
+        element: <Signup />,
     },
   
 ]);

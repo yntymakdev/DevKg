@@ -4,6 +4,7 @@ import Header from "../../Companent/Header/Header";
 import "./Vacancies.css";
 import useFetch from "../../hooks/useFetch";
 import { JobList } from "../../Companent/JobList/jobList";
+import Login from "../../Companent/Login/login";
 
 function Vacancies() {
     const{ data, isLoading } = useFetch({
@@ -18,7 +19,7 @@ function Vacancies() {
     
   return (
     <>
-      <Header />
+      <Header />      
       <div id="vacancies">
         <div className="container">
           <div className="vacancies">
