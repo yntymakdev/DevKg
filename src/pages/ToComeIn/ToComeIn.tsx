@@ -21,7 +21,7 @@ const ToComeIn: React.FC<ToComeInProps> = ({ closeModal }) => {
                             </Link>
                         </div>
                         <div className="tme-not-img">
-                            <img src={tmeNoot} alt="" />
+                            <img src={tmeNoot} alt=""  />
                         </div>
                     </div>
                     <p>
