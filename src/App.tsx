@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         element: <Login />,
     },
     {
-        path: "/simgup",
+        path: "/signup",
         element: <Signup />,
     },
   

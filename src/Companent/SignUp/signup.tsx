@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Cookies from "js-cookie";
-import "./signup.css"
 import axios from "axios";
+import "./signup.css"
 import Footer from "../Footer/Footer";
 import { useNavigate } from "react-router-dom";
 import Header from "../Header/Header";
@@ -12,7 +12,7 @@ const Signup = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-
+  const [congirmPassword, setCongirmPassword] = useState("");
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
@@ -35,11 +35,12 @@ const Signup = () => {
     <>
       <Header/>
         <div className="container">
+            <div className="signup__block">
             <section className="singup__content">
-                <h1>Signup</h1>
+                <h1>Зарегистрироваться</h1>
               <div className="inputs">
-                <form  className="form__content" onSubmit={handleSignup}>
-                    <input
+                <form  className="form__info" onSubmit={handleSignup}>
+                    <input className="inputs"
                             type="text"
                             id="username"
                             value={userName}
@@ -55,14 +56,23 @@ const Signup = () => {
                             name="password"
                             placeholder="Password"
                     />
-                        <button type="submit">Signup</button>
+                         <input
+                            type="password"
+                            id="password"
+                            value={congirmPassword}
+                            onChange={(e) => setCongirmPassword(e.target.value)}
+                            name="password"
+                            placeholder="Password"
+                    />
+                        <button className="addbtn" type="submit">Зарегистрироваться</button>
                   </form>
                 </div>
-                <div >
-                    <h1>Logged</h1>
-                    <a href="/login"> Login</a>
+                <div className="signup">
+                    <h1>Зарегистрировано</h1>
+                    <a href="/login"> Авторизоваться</a>
                 </div>
             </section>
+            </div>
         </div>
       <Footer />
     </>
