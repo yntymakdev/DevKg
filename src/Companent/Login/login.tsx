@@ -38,8 +38,9 @@ const Login = () => {
   return (
     <>
     <Header />
+
     <div className='login__content'>
-      <h1>Login</h1>
+      <h1>Авторизоваться</h1>
       <form className='form__info' onSubmit={handleLogin}>
           <input className='inputs'
               type="text"
@@ -56,11 +57,11 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
               name="password"
               placeholder="Password" />
-            <button  className='login-btn' type="submit">submit</button>
+            <button  className='login-btn' type="submit">Сохранить</button>
       </form>
       <div className='signup' >
-          <h1>Not logged in?</h1>
-          <a href='/signup'> SIGN UP</a>
+          <h1>Не вошел?</h1>   
+      <a href='/signup'>Зарегистрироваться</a>
       </div>
     </div>
     <Footer />
