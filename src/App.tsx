@@ -9,6 +9,7 @@ import Community from "./pages/Сommunity/Community";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Login from "./Companent/Login/login";
 import Signup from "./Companent/SignUp/signup";
+import AddVacancy from "./Companent/Addvacancy/addVacancy";
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,11 @@ const router = createBrowserRouter([
         path: "/signup",
         element: <Signup />,
     },
+    {
+        path: "/addVacancy",
+        element: <AddVacancy />,
+    },
+  
   
 ]);
 
