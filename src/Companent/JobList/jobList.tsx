@@ -3,7 +3,9 @@ export const JobList = ({
     componyName,
     companyRole,
     salary,
-    type
+    type,
+    // currency
+
 }: 
 {
     
@@ -12,6 +14,7 @@ export const JobList = ({
     companyRole: string,
     salary: string,
     type: string
+    // currency: string
 
 }) => {
     return(

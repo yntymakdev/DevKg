@@ -4,7 +4,6 @@ import Header from "../../Companent/Header/Header";
 import "./Vacancies.css";
 import useFetch from "../../hooks/useFetch";
 import { JobList } from "../../Companent/JobList/jobList";
-import Login from "../../Companent/Login/login";
 
 function Vacancies() {
     const{ data, isLoading } = useFetch({
@@ -25,7 +24,7 @@ function Vacancies() {
           <div className="vacancies">
             <div className="vacancies__content">
               <div className="filter" data-v-6a5c720c>
-                <Link to={"/"}>
+                <Link to={"/addVacancy"}>
                   <button className="add-vacancies create-list green"data-v-3fc4231adata-v-6a5c720c>
                     Добавить вакансию
                   </button>
@@ -37,16 +36,15 @@ function Vacancies() {
                           svgUrl={item?.organization_icon}
                           componyName={item?.organization_name}
                           companyRole={item?.position}
-                          salary ={`${item?.price_from} - ${item?.price_to} ${item?.current} ${item?.salary}`}
+                          salary ={`${item?.price_from} - ${item?.price_to} ${item?.currency
+                          } ${item?.salary}`}
                           type = {`${item?.type} / ${item?.city}`}                          
                       />
                     )
                   }    
-                {/* </a> */}
               </div>
             </div>
           </div>
-        {/* </div> */}
       </div>
       <Footer />
     </>
