@@ -36,7 +36,8 @@ function Vacancies() {
                           svgUrl={item?.organization_icon}
                           componyName={item?.organization_name}
                           companyRole={item?.position}
-                          salary ={`${item?.price_from} - ${item?.price_to} ${item?.current} ${item?.salary}`}
+                          salary ={`${item?.price_from} - ${item?.price_to} ${item?.currency
+                          } ${item?.salary}`}
                           type = {`${item?.type} / ${item?.city}`}                          
                       />
                     )
